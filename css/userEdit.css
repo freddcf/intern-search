@@ -1,0 +1,94 @@
+.dashboard {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.userInfo {
+  height: 100%;
+  width: 60rem;
+  background-color: var(--color-secondary-300);
+  border-radius: 2rem;
+  padding: 4rem 3rem 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.title img {
+  margin-left: 2rem;
+}
+
+#editForm {
+  position: relative;
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.infoBox {
+  display: inline-flex;
+  height: 33%;
+  width: 50%;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 3rem;
+}
+
+/* .infoBox:nth-child(3) {
+  transform: translateX(20%);
+}
+.infoBox:nth-child(6) {
+  transform: translateX(20%);
+} */
+
+.infoTag {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.infoValue {
+  font-size: 1.6rem;
+}
+
+input {
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  background-color: var(--color-secondary-250);
+  border: none;
+  border-radius: 2rem;
+}
+
+button.editP {
+  position: absolute;
+  bottom: -6rem;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 1.5rem 5rem;
+  margin-top: 2%;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  font-weight: bold;
+  background-color: var(--color-primary-200);
+  border-radius: 5rem;
+  border: none;
+  color: var(--color-secondary-000);
+  cursor: pointer;
+  box-shadow: 0.5rem 1.5rem 3rem rgba(0, 0, 0, 0.15);
+}
+
+/*
+<div class="dashboard">
+          <div class="userInfo"></div>
+          <button class="editP">Editar</button>
+        </div>
+*/

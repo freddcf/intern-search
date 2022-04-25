@@ -1,0 +1,32 @@
+@keyframes slideInTop {
+    from{
+       transform: translateY(-5rem);
+       opacity: 0;
+    }
+    to{
+        transform: translateY(0); 
+        opacity: 1;
+    }
+}
+
+@keyframes slideInTopCustom {
+    from{
+       transform: translate(-50%,-5rem);
+       opacity: 0;
+    }
+    to{
+        transform: translate(-50%,0); 
+        opacity: 1;
+    }
+}
+
+@keyframes slideInLeft {
+    from{
+        transform: translateX(-5rem);
+        opacity: 0;
+     }
+     to{
+         transform: translateX(0); 
+         opacity: 1;
+     }
+}

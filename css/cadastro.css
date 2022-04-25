@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap");
+
+:root {
+  --color-primary-000: #3733ff;
+  --color-primary-050: #ff6e30;
+  --color-primary-100: #4fc8ff;
+  --color-primary-150: #0c846c;
+  --color-primary-200: #1cdeb9;
+  --color-primary-250: rgba(28, 222, 185, 0.25);
+  --color-secondary-000: #1d2d44;
+  --color-secondary-050: rgba(29, 45, 68, 0.8);
+  --color-secondary-100: #445b7c;
+  --color-secondary-125: rgba(68, 91, 124, 0.5);
+  --color-secondary-150: rgba(73, 73, 73, 0.6);
+  --color-secondary-200: #e4e4e4;
+  --color-secondary-250: #ededed;
+  --color-secondary-300: #fff;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:focus {
+  outline: 2px dashed #1d2d44;
+  outline-offset: 3px;
+}
+
+:focus:not(:focus-visible) {
+  outline: none;
+  outline-offset: 0px;
+}
+
+:focus-visible {
+  outline: 2px dashed #1d2d44;
+  outline-offset: 3px;
+}
+
+body {
+  font-family: Roboto, "Segoe UI", Verdana, Tahoma, sans-serif;
+  font-size: 1.6rem;
+  background-color: var(--color-secondary-300);
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.tela-cad {
+  background-color: #00bfa6;
+}
+
+.tela-cad,
+.banner {
+  height: 100%;
+  width: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner img {
+  width: 80%;
+}
+
+.banner .brand {
+  position: absolute;
+  bottom: 4rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 4rem;
+  color: #00bfa6;
+}
+
+form {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form h1.welcome {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 3rem;
+  font-size: 4rem;
+  width: 40rem;
+}
+
+form input {
+  font-size: 2rem;
+  padding: 1.6rem 3rem;
+  border-radius: 5rem;
+  border: none;
+  outline: none;
+  margin-bottom: 0.8rem;
+  width: 40rem;
+  letter-spacing: 1px;
+}
+
+.selectors {
+  width: 40rem;
+  margin-bottom: 0.8rem;
+}
+
+form select {
+  padding: 1.6rem 3rem;
+  border-radius: 5rem;
+  font-size: 1.8rem;
+  width: 19rem;
+}
+
+form button {
+  background-color: #00b0ff;
+  color: #fff;
+  font-size: 3rem;
+  padding: 1.2rem 5rem;
+  border: 3px solid #4fc8ff;
+  border-radius: 5rem;
+  outline: none;
+  margin-top: 3rem;
+  cursor: pointer;
+}

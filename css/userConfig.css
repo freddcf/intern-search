@@ -1,0 +1,80 @@
+a.logout {
+  margin: 0;
+  padding: 1rem 2rem;
+  border: 2px solid #e81504;
+  color: #e81504;
+  background: transparent;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 1rem;
+  transition: all 0.3s ease;
+}
+
+a.logout:hover {
+  background-color: #e81504;
+  color: var(--color-secondary-300);
+}
+
+.dashboard {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.userInfo {
+  width: 80%;
+  height: 30rem;
+  background-color: var(--color-secondary-300);
+  border-radius: 2rem;
+  padding: 5rem;
+}
+
+.infoBox {
+  display: inline-flex;
+  height: 50%;
+  width: 33%;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.infoBox:nth-child(3) {
+  transform: translateX(20%);
+}
+
+.infoTag {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.infoValue {
+  font-size: 1.8rem;
+  word-wrap: break-word;
+}
+
+a {
+  margin-top: 6%;
+}
+
+button.editP {
+  display: inline-block;
+  padding: 1.5rem 5rem;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  font-weight: bold;
+  background-color: var(--color-primary-200);
+  border-radius: 5rem;
+  border: none;
+  color: var(--color-secondary-000);
+  cursor: pointer;
+  box-shadow: 0.5rem 1.5rem 3rem rgba(0, 0, 0, 0.15);
+}
+
+/*
+<div class="dashboard">
+          <div class="userInfo"></div>
+          <button class="editP">Editar</button>
+        </div>
+*/

@@ -1,0 +1,108 @@
+.banner {
+  height: 45%;
+  width: 100%;
+  background-color: var(--color-primary-250);
+  background-image: url("../img/home-background.png");
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: lighten;
+  border-radius: 2rem;
+  padding: 2rem;
+}
+
+.banner-title {
+  background-color: var(--color-secondary-050);
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 1.2rem;
+  border-radius: 2rem;
+}
+
+.banner-title img {
+  margin-right: 1rem;
+}
+
+.heading02 {
+  font-size: 2.6rem;
+  color: var(--color-secondary-300);
+}
+
+.cards {
+  position: relative;
+  height: 55%;
+  display: flex;
+  /* align-items: center;
+  justify-content: space-between; */
+  cursor: default;
+}
+
+.cards [class^="card0"] {
+  position: absolute;
+  height: 25rem;
+  width: 35rem;
+  padding: 3rem;
+  background-color: var(--color-secondary-300);
+  border-radius: 2rem;
+  bottom: 0;
+  box-shadow: 0.5rem 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  transition: all 0.3s;
+}
+
+.cards [class^="card0"]:hover {
+  filter: gray;
+  -webkit-filter: grayscale(0%);
+  box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
+  z-index: 20;
+}
+
+@media only screen and (max-width: 1300px) {
+  .cards [class^="card0"]:not(:hover) {
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+  }
+}
+
+.card01 {
+  left: 0;
+  animation: slideInTop .5s backwards .3s ease;
+}
+.card02 {
+  right: 0;
+  animation: slideInTop .5s backwards .8s ease;
+}
+.card03 {
+  left: 50%;
+  transform: translateX(-50%);
+  animation: slideInTopCustom .5s backwards .5s ease;
+
+}
+
+.card-title {
+  font-size: 2rem;
+  color: var(--color-secondary-000);
+  margin-bottom: 2rem;
+}
+
+.card-text {
+  font-size: 1.6rem;
+  color: var(--color-secondary-100);
+  font-weight: bold;
+}
+
+.card-text .upcoming {
+  display: block;
+  color: var(--color-primary-150);
+  text-decoration: none;
+  margin-bottom: 2rem;
+}
+
+.btn-mural {
+  position: absolute;
+  text-decoration: none;
+  background-color: var(--color-primary-200);
+  color: var(--color-secondary-000);
+  font-weight: bold;
+  padding: 1rem 3rem;
+  border-radius: 2rem;
+  bottom: 4rem;
+}

@@ -85,7 +85,7 @@
             Atualizações
             </h3>
             <p class="card-text">
-            Intern Search é uma empresa que propõe ofertas de estágio para todas as áreasn e idades, visando sempre o aprendizado e desenvolvimento pessoal e social dos candidato. Um estágio nunca esteve tão fácil para você como está aqui...
+            Intern Search é uma empresa que propõe ofertas de estágio para todas as áreas e idades, visando sempre o aprendizado e desenvolvimento pessoal e social dos candidatos. Um estágio nunca esteve tão fácil para você como está aqui...
             </p>
           </div>
           <div class="card02">

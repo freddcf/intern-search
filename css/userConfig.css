@@ -1,8 +1,8 @@
 a.logout {
   margin: 0;
   padding: 1rem 2rem;
-  border: 2px solid #e81504;
-  color: #e81504;
+  border: 2px solid var(--color-primary-050);
+  color: var(--color-primary-050);
   background: transparent;
   text-decoration: none;
   font-weight: bold;
@@ -11,7 +11,7 @@ a.logout {
 }
 
 a.logout:hover {
-  background-color: #e81504;
+  background-color: var(--color-primary-050);
   color: var(--color-secondary-300);
 }
 

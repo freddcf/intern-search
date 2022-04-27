@@ -28,11 +28,11 @@
 }
 
 #editForm {
-  position: relative;
   height: 80%;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .infoBox {
@@ -68,11 +68,8 @@ input {
   border-radius: 2rem;
 }
 
-button.editP {
-  position: absolute;
+button.editP, a.editDel {
   bottom: -6rem;
-  left: 50%;
-  transform: translateX(-50%);
   padding: 1.5rem 5rem;
   margin-top: 2%;
   font-size: 2rem;
@@ -84,6 +81,21 @@ button.editP {
   color: var(--color-secondary-000);
   cursor: pointer;
   box-shadow: 0.5rem 1.5rem 3rem rgba(0, 0, 0, 0.15);
+}
+
+a.editDel{
+  text-decoration: none;
+  border: 3px solid var(--color-primary-050);
+  color: var(--color-primary-050);
+  background: transparent;
+  transition: all 0.3s ease;
+  margin-left: 2rem;
+
+}
+
+a.editDel:hover{
+  background-color: var(--color-primary-050);
+  color: var(--color-secondary-300);
 }
 
 /*

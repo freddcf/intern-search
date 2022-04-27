@@ -114,7 +114,10 @@
                   </div>";
                 }
                 ?>
-                <button type="submit" class="editP">Salvar</button>
+                <div class="container-config">
+                  <button type="submit" class="editP">Salvar</button>
+                  <a href="deleteUser-form.php" class="editDel">Deletar</a>
+                </div>
               </form>
             <?php } ?>
             </div>
